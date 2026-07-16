@@ -1,5 +1,9 @@
 # amcheck
 
+[![CI](https://github.com/bica-tools/amcheck/actions/workflows/ci.yml/badge.svg)](https://github.com/bica-tools/amcheck/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bica-tools/amcheck)](https://goreportcard.com/report/github.com/bica-tools/amcheck)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A config-safety linter for Prometheus / Grafana **Alertmanager** routing
 configs. It diffs two configs (`old`, `new`) and reports every alert class
 that would **silently stop reaching a receiver** it used to reach — the
